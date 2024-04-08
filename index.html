@@ -1,1 +1,66 @@
-Site under construction
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #333;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: left;
+            padding-left: 5vw;
+        }
+        .title, .subtitle {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .title {
+            font-size: 4vw;
+            letter-spacing: 0.5vw;
+        }
+        .subtitle {
+            font-size: 2vw;
+            margin-top: 2vh;
+        }
+
+        @media screen and (max-width: 600px) {
+            .title {
+                font-size: 6vw;
+                letter-spacing: 0.8vw;
+            }
+            .subtitle {
+                font-size: 3vw;
+                margin-top: 4vh;
+            }
+            body {
+                padding-left: 10vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        R A H A R<br>
+        J A - L I U
+    </div>
+    <div class="subtitle">Hi there, welcome to my page.</div>
+    <div class="subtitle">Technologist. Founder. Engineer.</div>
+    <div class="subtitle">[surname1][surname2]@[alphabet-mail].com</div>
+</body>
+</html>
